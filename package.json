@@ -1,0 +1,28 @@
+{
+  "name": "twitter-js",
+  "version": "1.0.0",
+  "description": "a cool tweet app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Morosani/twitterjs.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Dan Morosani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morosani/twitterjs/issues"
+  },
+  "homepage": "https://github.com/Morosani/twitterjs",
+  "dependencies": {
+    "express": "^4.12.3",
+    "morgan": "^1.5.2",
+    "nodemon": "^1.3.7"
+  }
+}
